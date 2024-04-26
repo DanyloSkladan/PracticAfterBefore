@@ -9,6 +9,21 @@
 }
 
 .class{
-    border: 1px solid #696565;
+    background-color: #c6b6b6 ;
+    border-radius: 10px;
+    
+}
+
+
+.center__item{
+    position: relative;
+}
+
+.center__item::after{
+    position: absolute;
+    content: "";
+    border-left: 3px solid #da1212;
+    border-right: 3px solid #da1212;
+    padding: 100px;
     
 }
